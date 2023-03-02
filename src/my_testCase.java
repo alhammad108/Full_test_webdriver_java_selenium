@@ -7,7 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
-public class xyz_Bank_test extends prametre_xyz_Bank {
+public class my_testCase extends paramiter {
 @Test()
 public void Log_in() {
 	String Actual_tittle=driver.getTitle();
