@@ -5,13 +5,14 @@ import org.testng.asserts.SoftAssert;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
+
+
 public class paramiter {
-	
 	public WebDriver driver;
 	
-	String My_Url="https://www.demoblaze.com/index.html# ";
+	String My_Url="https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login ";
 		SoftAssert mysoftassert=new SoftAssert();
-String expected_title="STORE";
+String expected_title="XYZ Bank";
 
 @BeforeTest()
 public void My_pretest() {				
@@ -22,5 +23,5 @@ public void My_pretest() {
 	driver.manage().window().maximize();
 }
 
-
 }
+
